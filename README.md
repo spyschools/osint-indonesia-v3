@@ -19,6 +19,15 @@ $ python3 osint_v3.py 3208074509870004
 
 $ python3 osint_v3.py 3275124308050003 +6281234567890
 
+*UPDATE
+$ python3 osint_builder.py
+
+$ unzip osint_v3.zip -d osint_v3_pkg
+
+$ cd osint_v3_pkg
+
+$ python3 osint_v3.py 3275124308050003 +6281234567890
+
 Output:
 - report_TIMESTAMP.html (buka di browser)
 
@@ -28,4 +37,3 @@ Notes:
 - gunakan tools ini dengan bijak, tools ini hanya untuk pengetesan dan pengembangan
 
 gunakan tools ini dengan bijak, tools ini hanya untuk pengetesan dan pengembangan
-
