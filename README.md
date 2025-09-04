@@ -1,5 +1,5 @@
 # osint-indonesia-v3
-Tools OSINT Indonesia, untuk cek NIK &amp; No HP. Script ini tidak akan ambil data dari database ilegal, tapi hanya dari sumber OSINT publik.
+Tools OSINT Indonesia, untuk cek NIK & No HP. Script ini tidak akan ambil data dari database ilegal, tapi hanya dari sumber OSINT publik.
 
 Files:
 - osint_v3.py         (main scanner with multi-threaded Google dorking)
@@ -14,7 +14,9 @@ $ cd osint-indonesia-v3
 
 $ pip3 install requests beautifulsoup4
 
-Jalankan scanner:
+Jalankan scanner contoh:
+$ python3 osint_v3.py 3208074509870004
+
 $ python3 osint_v3.py 3275124308050003 +6281234567890
 
 Output:
